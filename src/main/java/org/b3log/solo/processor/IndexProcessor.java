@@ -123,7 +123,7 @@ public class IndexProcessor {
             Templates.MAIN_CFG.setServletContextForTemplateLoading(SoloServletListener.getServletContext(),
                     "/skins/" + specifiedSkin);
             request.setAttribute(Keys.TEMAPLTE_DIR_NAME, specifiedSkin);
-
+            //localeString = zh_CN
             Skins.fillLangs(preference.optString(Option.ID_C_LOCALE_STRING), (String) request.getAttribute(Keys.TEMAPLTE_DIR_NAME), dataModel);
 
             filler.fillIndexArticles(request, dataModel, currentPageNum, preference);

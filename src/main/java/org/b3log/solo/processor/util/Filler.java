@@ -67,6 +67,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
+ * 填充工具
  * Filler utilities.
  *
  * @author <a href="http://88250.b3log.org">Liang Ding</a>
