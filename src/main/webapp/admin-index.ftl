@@ -14,15 +14,17 @@
         <div class="tip"><span id="loadMsg">${loadingLabel}</span></div>
         <div class="tip tip-msg"><span id="tipMsg"></span></div>
         <div id="allPanel">
+        <#-- 后台头部-->
             <div id="top">
                 <a href="http://b3log.org" target="_blank" class="hover">
-                    Solo
+                   ablog
                 </a>
-               
                 <span class="right"> 
-                    <a href="${servePath}" title='${indexLabel}'>${indexLabel}</a><a href='javascript:admin.logout();' title='${logoutLabel}'>${logoutLabel}</a>
+                    <a href="${servePath}" title='${indexLabel}'>${indexLabel}</a>
+                    <a href='javascript:admin.logout();' title='${logoutLabel}'>${logoutLabel}</a>
                 </span>
             </div>
+            <#-- -->
             <div id="tabs">
                 <ul>
                     <li>
@@ -111,6 +113,7 @@
                     </li>
                 </ul>
             </div>
+            <#-- 一个tab对应一个div显示页面 -->
             <div id="tabsPanel">
                 <div id="tabsPanel_main" class="none"></div>
                 <div id="tabsPanel_article" class="none"></div>

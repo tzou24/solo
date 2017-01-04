@@ -260,6 +260,7 @@ public class LoginProcessor {
     }
 
     /**
+     * 显示忘记密码页面
      * Shows forgotten password page.
      *
      * @param context the specified context
